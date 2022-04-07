@@ -1,10 +1,10 @@
 # DX Project Template
 
-1.Update the following properties for your new project: 
+1.Update the following properties for your new project:
 
-   * *orgName* in `config/project-scratch-def.json` file.   
-   * *name* and *description* values in `package.json` file.
-   * Note that the standard *Admin* profile is in `.forceignore`. You may need to change this in rare cases e.g. AppExchange app.
+* *orgName* in `config/project-scratch-def.json` file.
+* *name* and *description* values in `package.json` file.
+* Note that the standard *Admin* profile is in `.forceignore`. You may need to change this in rare cases e.g. AppExchange app.
 
 2. Optional: update the *sourceApiVersion* in `sfdx-project.json`.
 

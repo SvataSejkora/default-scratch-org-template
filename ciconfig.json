@@ -1,5 +1,12 @@
 {
-  "projectName": "dx-template",
-  "packageIds": [],
-  "permsetGroups": []
+    "projectName": "dx-template",
+    "packageIds": [
+        {
+            "name": "Rollup Helper",
+            "id": "04t6f000000syg6AAA"
+        }
+    ],
+    "permsetGroups": [
+
+    ]
 }
