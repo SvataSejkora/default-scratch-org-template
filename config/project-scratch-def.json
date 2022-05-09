@@ -4,8 +4,21 @@
     "adminEmail": "admin@bearingpoint.com.invalid",
     "country": "CZ",
     "language": "en_US",
-    "features": [],
+    "features": [
+        "LightningSalesConsole",
+        "MarketingUser",
+        "SalesUser"
+    ],
     "settings": {
+        "apexSettings": {
+            "enableDisableParallelApexTesting": true
+        },
+        "chatterSettings": {
+            "enableChatter": true
+        },
+        "languageSettings": {
+            "enableTranslationWorkbench": true
+        },
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true
         },
