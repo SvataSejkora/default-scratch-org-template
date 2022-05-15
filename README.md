@@ -31,8 +31,12 @@
 * [SFDX-Git-Delta](https://github.com/scolladon/sfdx-git-delta) - prepare `package.xml` within seconds.
     * Handy tool for not only deployment-responsible people.
     * Git is a prerequisite. No remote repository is needed though.
+    ```sh
+    $ sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output .
+    $ sfdx force:source:deploy -x package/package.xml -u targetOrg
+    $ sfdx force:mdapi:deploy -d destructiveChanges --ignorewarnings -u targetOrg
+    ```
+  
 
 * [CI-SFDX-Plugin](https://www.npmjs.com/package/ci-sfdx-plugin) - set of commands making CI and dev's life easier when using scratch orgs.
-    * Install the plugin, update configuration in `ciconfig.json` and npm scripts in `package.json` for your new project following steps on the plugin's homepage.
-
-
+  * Install the plugin, update configuration in `ciconfig.json` and npm scripts in `package.json` for your new project following steps on the plugin's homepage.
