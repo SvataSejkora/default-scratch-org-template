@@ -3,11 +3,11 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Administrator</label>
     <permissionSets>AccountAdminAccess</permissionSets>
-    <permissionSets>SystemAdminFeatures</permissionSets>
     <permissionSets>ContactAdminAccess</permissionSets>
     <permissionSets>CreateAndEditReports</permissionSets>
     <permissionSets>EventAdminAccess</permissionSets>
     <permissionSets>OpportunityAdminAccess</permissionSets>
+    <permissionSets>SystemAdminFeatures</permissionSets>
     <permissionSets>TaskAdminAccess</permissionSets>
     <permissionSets>TransferRecords</permissionSets>
     <status>Updated</status>
