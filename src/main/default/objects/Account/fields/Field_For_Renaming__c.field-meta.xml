@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_For_Renaming__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>For Czechdreamin test purposes only.</inlineHelpText>
+    <label>Field For Renaming</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Please</fullName>
+                <default>false</default>
+                <label>Please</label>
+            </value>
+            <value>
+                <fullName>Dont</fullName>
+                <default>false</default>
+                <label>Dont</label>
+            </value>
+            <value>
+                <fullName>Ever</fullName>
+                <default>false</default>
+                <label>Ever</label>
+            </value>
+            <value>
+                <fullName>Try</fullName>
+                <default>false</default>
+                <label>Try</label>
+            </value>
+            <value>
+                <fullName>This</fullName>
+                <default>false</default>
+                <label>This</label>
+            </value>
+            <value>
+                <fullName>!</fullName>
+                <default>false</default>
+                <label>!</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

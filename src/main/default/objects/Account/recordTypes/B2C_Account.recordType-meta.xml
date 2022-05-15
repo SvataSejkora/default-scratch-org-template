@@ -52,6 +52,33 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Field_For_Renaming__c</picklist>
+        <values>
+            <fullName>%21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ever</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Please</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Try</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Industry</picklist>
         <values>
             <fullName>Agriculture</fullName>

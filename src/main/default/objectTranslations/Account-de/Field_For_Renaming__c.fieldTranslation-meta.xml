@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label>Feld zum Umbenennen</label>
+    <name>Field_For_Renaming__c</name>
+    <picklistValues>
+        <masterLabel>!</masterLabel>
+        <translation>!</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dont</masterLabel>
+        <translation>Nicht</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ever</masterLabel>
+        <translation>Allzeit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Please</masterLabel>
+        <translation>Bitte</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>This</masterLabel>
+        <translation>Das</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Try</masterLabel>
+        <translation>Versuchen</translation>
+    </picklistValues>
+</CustomFieldTranslation>
