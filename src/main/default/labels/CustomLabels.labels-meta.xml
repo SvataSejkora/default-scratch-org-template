@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AbsoluteCertainty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AbsoluteCertainty</shortDescription>
+        <value>This will, with absolute certainty, will work.</value>
+    </labels>
+    <labels>
+        <fullName>Delete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>PleaseConfirm</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PleaseConfirm</shortDescription>
+        <value>Please Confirm</value>
+    </labels>
+    <labels>
+        <fullName>Submit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>ZeroChance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ZeroChance</shortDescription>
+        <value>There is zero chance this will work.</value>
+    </labels>
+</CustomLabels>
