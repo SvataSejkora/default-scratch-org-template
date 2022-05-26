@@ -5,7 +5,7 @@
     "private": true,
     "description": "DX Template project",
     "scripts": {
-        "sfci:init": "sfdx ci:org:create -a ${npm_config_alias} && sfdx ci:package:install && npm run sfci:init:postcreate && npm run data:import --target=${npm_config_alias}",
+        "sfci:init": "sfdx ci:org:create -a ${npm_config_alias} && npm run sfci:init:postcreate && npm run data:import --target=${npm_config_alias}",
         "sfci:init:win": "sfdx ci:org:create -a %npm_config_alias% && sfdx ci:package:install && npm run sfci:init:postcreate && npm run data:import --target=%npm_config_alias%",
         "sfci:init:postcreate": "sfdx ci:org:printurl && sfdx ci:source:push",
         "data:import": "sfdx sfdmu:run --path data --sourceusername csvfile --targetusername ${npm_config_target}",

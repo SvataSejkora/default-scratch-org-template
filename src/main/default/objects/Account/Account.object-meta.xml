@@ -229,7 +229,7 @@
     <enableHistory>true</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
-    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
