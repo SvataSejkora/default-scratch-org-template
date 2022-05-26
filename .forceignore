@@ -1,0 +1,25 @@
+# .forceignore v2
+package.xml
+
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+
+src/**/*-sfci.bak
+
+# Ignore standard profiles, instead use clones
+Admin.profile
+
+# Ignore SF1 AppMenu as scratches do not like it and is not needed
+**/src/main/default/appMenus/Salesforce1.appMenu-meta.xml
+
+# Ignore SF1 appswitcher as it cannot be changed via metadata API
+**/src/main/default/appMenus/AppSwitcher.appMenu-meta.xml
+**/src/main/default/flexipages/LightningService_UtilityBar.flexipage-meta.xml
+**/src/main/default/flexipages/LightningSalesConsole_UtilityBar.flexipage-meta.xml
