@@ -52,6 +52,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>CheckRecordTypeBehaviour__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Please</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Field_For_Renaming__c</picklist>
         <values>
             <fullName>%21</fullName>
@@ -283,6 +302,10 @@
         </values>
         <values>
             <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test</fullName>
             <default>false</default>
         </values>
     </picklistValues>

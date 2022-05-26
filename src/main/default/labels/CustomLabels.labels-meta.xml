@@ -35,4 +35,11 @@
         <shortDescription>ZeroChance</shortDescription>
         <value>There is zero chance this will work.</value>
     </labels>
+    <labels>
+        <fullName>TestBreak</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TestBreak</shortDescription>
+        <value>Test Break</value>
+    </labels>
 </CustomLabels>
