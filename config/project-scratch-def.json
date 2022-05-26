@@ -5,22 +5,42 @@
     "country": "CZ",
     "language": "en_US",
     "features": [
+        "Communities",
+        "Knowledge",
         "LightningSalesConsole",
+        "LightningServiceConsole",
+        "LiveAgent",
         "MarketingUser",
-        "SalesUser"
+        "SalesUser",
+        "ServiceCloud",
+        "ServiceUser"
     ],
     "settings": {
         "apexSettings": {
             "enableDisableParallelApexTesting": true
         },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
         "chatterSettings": {
             "enableChatter": true
+        },
+        "knowledgeSettings": {
+            "enableKnowledge": true,
+            "enableLightningKnowledge": true,
+            "defaultLanguage": "en_US"
         },
         "languageSettings": {
             "enableTranslationWorkbench": true
         },
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true
+        },
+        "liveAgentSettings" : {
+            "enableLiveAgent":true
+        },
+        "omniChannelSettings": {
+            "enableOmniChannel": true
         },
         "userManagementSettings": {
             "enableEnhancedPermsetMgmt": true,
