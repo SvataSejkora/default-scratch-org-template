@@ -28,7 +28,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Field_For_Renaming__c</field>
+        <field>Account.Field_Renamed__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

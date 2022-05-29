@@ -71,7 +71,7 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Field_For_Renaming__c</picklist>
+        <picklist>Field_Renamed__c</picklist>
         <values>
             <fullName>%21</fullName>
             <default>false</default>

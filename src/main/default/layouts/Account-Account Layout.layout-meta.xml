@@ -21,7 +21,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Field_For_Renaming__c</field>
+                <field>Field_Renamed__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
